@@ -1,0 +1,129 @@
+.cart-page-banner {
+    height: 300px;
+    width: 100%;
+    background: url('../../../public/assets/blog-title-bg6-opt.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.cart-page-banner .overlay{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color:rgb(28, 28, 28);
+    opacity: 0.4;
+    mix-blend-mode: color-burn;
+ 
+}
+.banner-txt{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+       z-index: 1;
+}
+.banner-txt h1{
+color: white;
+font-size: 25px;
+font-weight: 700;
+letter-spacing: 1px;
+line-height: 0px;
+margin-bottom: 0px !important;
+cursor: pointer;
+}
+ .arrow{
+    font-size: 20px !important;
+    margin: 0px 15px;
+    color: white !important;
+}
+
+.cart-page-section1{
+    padding: 50px 70px;
+    display: flex;
+    gap: 30px;
+    /* align-items: center; */
+}
+
+thead{
+    border-bottom: 2px solid lightgray;
+}
+tbody .product-thumbnail img{
+    height: 80px;
+    width: 80px;
+    object-fit: cover;
+}
+thead tr>*{
+    padding: 10px;
+}
+tbody tr>*{
+    padding: 10px;
+}
+.cart-page-section1-left{
+    flex: 1.5;
+}
+
+.cart-page-section1-right{
+    flex: 1;
+    border: 4px solid lightgray;
+    width: 100%;
+    padding: 30px 30px;
+    height: fit-content;
+}
+.cart-page-section1-right .txt1{
+    font-weight: 600;
+}
+.cart-page-section1-right .subtotal1{
+    display: flex;
+    justify-content: space-between;
+}
+.cart-page-section1-right .spacer1{
+    margin: 10px 0;
+    opacity: 0.5;
+}
+.cart-page-section1-right .total-bill{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.total-bill .bill-amount{
+    color: #83b735
+}
+.cart-page-section1-right .checkout-btn,
+.continue-shopping-btn{
+    width: 100%;
+    padding: 10px 30px;
+    background-color: #83b735;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    transition: all 0.5s ease;
+}
+
+.empty-cart-page{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 50vh;
+}
+.empty-cart-page .empty-cart-msg{
+    display: flex;
+}
+.empty-cart-page h1{
+    margin-bottom: 0px !important;
+}
+.empty-cart-page .cart-icon{
+    font-size: 45px;
+    margin-right: 15px !important;
+}
+
+.continue-shopping-btn{
+    width: 300px;
+    margin-top: 20px;
+}

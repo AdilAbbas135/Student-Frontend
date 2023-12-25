@@ -1,0 +1,62 @@
+.Login-Page{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center
+}
+.Login-Page h1{
+    font-weight: 700;
+    font-size: 35px;
+}
+.login-container{
+    position: fixed;
+}
+.login-container .logo{
+text-align: center;
+}
+.login-container .logo h1{
+    margin-bottom: 10px !important;
+}
+.login-form{
+    -webkit-box-shadow: 1px 1px 10px 3px rgba(0,0,0,0.3); 
+    box-shadow: 1px 1px 10px 3px rgba(0,0,0,0.3);
+    padding: 50px 30px;
+    border-radius: 7px;
+    display: flex;
+    flex-direction: column;
+    min-width: 350px;
+}
+.login-form input{
+    border: none;
+    margin-bottom: 20px;
+    height: 50px;
+    padding: 0px 15px ;
+    background-color:rgb(232, 240, 254);
+    border-radius: 5px;
+}
+.login-form input:focus{
+    outline: none;
+}
+.login-form input:active{
+    border: none;
+    outline: none;
+}
+.login-form button{
+    background-color: #83b735;
+    border: none;
+    height: 50px;
+    color: white;
+    font-weight: 600;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+.register-btn{
+    margin: auto;
+    padding-top: 10px;
+}
+.error-message{
+    margin-top: -465px !important;
+   
+}
